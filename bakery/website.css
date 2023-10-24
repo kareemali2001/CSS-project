@@ -1,0 +1,191 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+  .home{
+    background-image: url(bb.jpg);
+    background-size: cover;
+    height: 100vh;
+  }
+  .home img{
+    float: left;
+
+  }
+  .homecontent{
+    text-align: center;
+    margin-right: 40px;
+    padding-top: 360px;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+  }
+  .homecontent p{
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 20px;
+  }
+  .homenav{
+    text-align: center;
+    background-color:transparent;
+    padding: 20px 15px;
+    font-size: 20px;  
+  }
+  .homenav img{
+    float:left;
+  }
+  .homenav ul{
+    float: right;
+    list-style: none;
+    
+
+  }
+  .homenav ul li{
+    margin: 0px 40px;
+    float: left;
+    margin-bottom: 10px;
+  }
+  .homenav ul li a{
+    text-decoration: none;
+    font-style: italic;
+    color: white;
+  }
+  .button {
+    background-color: #aacdab; /* Green */
+    border: none;
+    color: rgb(4, 4, 4);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .button2 {
+    background-color:transparent; 
+     border: radius 2px; ;
+    color: rgb(4, 4, 4);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .contentcontainer{
+    clear: both;
+    margin-top: 80px;
+  }
+  .contentcontainer img{
+    float: left;
+    max-width: 40%;
+    max-height: 40%;
+    margin-right: 250px;
+  }
+  .contentcontainer img h1 b{
+    float: right;
+    
+
+  }
+  .contentcontainer p{
+    text-align: left;
+    margin-top: 40px;
+  }
+  .contentcontainer li {
+    margin-top: 20px;
+  }
+  .cont2container{
+    clear: both;
+
+  }
+  .cont2container h1{
+    clear: both;
+    text-align: center;
+
+    
+  }
+  .cont2container p{
+    clear: both;
+    text-align: center;
+
+    
+  }
+  .image-row {
+    display: flex;
+    margin-left: 160px;
+   align-content: center;
+    justify-content:space-between; /* this will add equal space between each image */
+  
+  }
+ .image-row figure{
+  float: left;
+ } 
+ .image-row figure figcaption{
+  color: lightcoral;
+ }
+ .contactinfo{
+
+ }
+ #googleMap{
+  float:left;
+  margin-right: 600px;
+  margin-bottom: 100px;
+ 
+  
+ }
+ .contactinfo p {
+  text-align: center;
+  margin-right: 500px;
+ }
+ .contactinfo h1 {
+  text-align: center;
+  margin-right: 700px;
+ }
+ .contactinfo li {
+  margin-left: 30px;
+ }
+ .aboutus {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  border-bottom: black;
+}
+
+.aboutus-item {
+  flex-basis: 22%;
+  text-align: center;
+}
+.aboutus-item li {
+  text-align: justify;
+ 
+}
+.footer{
+  width: 100px;
+  height: 30px;
+}
+.con{
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+
+}
+.meal{
+  width: 33%;
+  text-align: center;
+  float: left;
+   
+}
+.meal img{
+  width: 100%;
+}
+.inner{
+  padding: 30px;
+
+}
+.clear{
+  clear: both;
+}
