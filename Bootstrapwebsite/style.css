@@ -1,0 +1,185 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar a{ 
+    color: lightgray;
+   
+}
+header img{
+    width: 268px;
+    height: 33px;
+    margin-left: 50px;
+}
+.container1{
+    max-width: 100%;
+}
+.container1 img{
+    margin-left: 49%;
+    margin-top: 70px;
+    width: 40px;
+    height: 40px;
+}
+.container1 h3{
+    margin-top: 30px ;
+    margin-left: 10px;
+    text-align: center;
+    color: rgb(187, 180, 180);
+    
+    
+} 
+
+.info{
+    color: #877f7f;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    padding-left: 260px;
+    padding-right: 280px;
+    width: 100%;
+    justify-content: space-between;
+    
+
+}
+
+
+.p1{
+    width: 40%;
+   
+}
+.p2{
+    width: 40%;
+}
+.contaier2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+   
+
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    width:70%;
+    height: 100%;
+    margin-left: 90px;
+}
+.card2{
+    margin-left: 100px;
+    width:33%;
+    height: 30%;
+
+}
+.card1{
+    margin-left: 100px;
+    width:33%;
+    height: 30%;
+
+}
+.card3{
+
+    margin-left: 100px;
+    width:33%;
+    height: 30%;
+}
+.container3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    height: 100%;
+}
+.text{
+    
+    margin-top: 50px;
+    margin-left: 260px;
+    float:left;
+    width: 15%;
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(138, 136, 136);
+}
+.imageswrap{
+    display: flex;
+    margin-left: 400px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    width: 40%;
+    gap: 45px;
+}
+.imageswrap img{
+    width: 15%;
+    height: 15%;
+}
+.section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+    background-color: #d0faf4;
+    padding-left: 50px;
+}
+.section4header {
+    font-family: Work Sans, Arial, sans-serif;
+    padding-top: 120px;
+    
+}
+
+.section4squares{
+    display: flex;
+    margin-right: 50px;
+    height: 100%;
+    justify-content: space-around;
+    margin-left: 100px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-right: 200px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-right: 50px;
+}
+.hed{
+    text-align: center;
+    align-content: center;
+    width: 40%;
+    margin-left: 450px;
+}
+.elrasa{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 75%;
+    margin-left: 200px
+}
+.card-body:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+    
+  }
+.last{
+    text-align: center;
+    align-content: center;
+    font-style: italic;
+    width: 40%;
+    margin-left: 450px;
+}
+.footer{
+    text-align: center;
+    font-size: small;
+    align-content: center;
+    width: 80%;
+    margin-left: 170px;
+    
+}
