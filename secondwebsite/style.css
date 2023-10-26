@@ -1,0 +1,289 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.my-nav{
+    z-index: 999;
+}
+.home{
+    background-image: url(img/hero-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.homelayer{
+    /* text-align: center;
+    padding-top: 400px;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif; */
+    background-color: rgb(0, 0, 0,0.7);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .layercontent{
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  .type{
+    font-size: 40px;
+    
+  }
+  .type::after{
+    content: "developer";
+    animation-name:skill;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+  }
+@keyframes skill {
+    0%{content: "|";} 
+    10%{content: "D|";} 
+    14%{content: "DE|";} 
+    16%{content: "DEV|";} 
+    18%{content: "DEVE|";} 
+    20%{content: "DEVEL|";} 
+    60%{content: "DEVELO|";} 
+    70%{content: "DEVELOP|";} 
+    80%{content: "DEVELOPE|";} 
+    90%{content: "DEVELOPER|";} 
+    100%{content: "DEVELOPER!|";} 
+   
+    
+}
+.homelayer h2{
+
+    text-align: center;
+    
+}
+    
+nav a:hover {
+    
+    border-bottom: 2px solid white;
+    padding: 6px 0; 
+  }
+  .personalcontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-bottom: 20px;
+  }
+  .left{
+   width: 90%;
+
+   background-color: white;
+   float: left;
+   display: flex;
+   margin-top: 80px;
+   margin-bottom: 80px;
+   
+
+  }
+  .left img{
+margin-top: 30px;
+margin-left: 30px; 
+}
+
+
+.person-info {
+  display: flex;
+  align-items: center;
+}
+
+.person-info img {
+  
+  max-width: 100%;
+  height: auto;
+  margin-right: px; 
+}
+
+.info-details {
+  margin-left: 75px;
+  margin-top: 30px;
+  
+  
+}
+
+.info-details p {
+  margin: 0; /* Remove default paragraph margins */
+}
+
+.info2{
+  margin-top: 40px;
+  margin-left: 100px;
+}
+.progress{
+  
+  display: flex;
+ margin-top: 10px;
+ margin-bottom: 20px;
+}
+.services{
+  text-align: center;
+  justify-content: center;
+  
+}
+
+.wrap{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 240px;
+  width: 70%;
+  padding: 10px;
+ 
+}
+.icon{
+  margin-left: 70px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: blue;
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+}
+.portfolio{
+padding: 60px 0px;
+
+
+}
+.card{
+  border: 0px;
+  margin: 10px;
+  
+}
+.card-body-icon{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+ 
+  
+}
+.card:hover img{
+  transform: scale(1.5,1.5);
+
+}
+.card img {
+  transition:transform 1s ease-in-out;
+}
+.card-img{
+  overflow: hidden;
+}
+.carousel .carousel-inner{
+  height:500px
+  }
+  .carousel-inner .carousel-item img{
+  min-height:200px;
+ 
+  object-fit:cover
+  }
+  .Blog{
+    text-align: center;
+    justify-content: center;
+    
+    
+  }
+  .up{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  
+  }
+ .carouselpart{
+  background-image: url(overlay-bg.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+
+
+ }
+ .carousellayer{
+  background-color: rgba(00,0.0,225,0.6 );
+ }
+ .content{
+
+
+ }
+ .myimg{}
+
+ 
+ .carousel-indicators{
+  top: 50%;
+  margin-top: 140px;
+ }
+ .carousel-indicators [data-target]{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+
+ }
+ .ending{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  
+  background-image: url(overlay-bg.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+
+ }
+ .bcc{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(00,0.0,225,0.6 );
+ }
+ .sections{
+  width: 90%;
+
+  background-color: white;
+  
+  display: flex;
+  margin-top: 80px;
+  margin-bottom: 80px;  
+
+ }
+ .form{
+ 
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+ }
+ .gettouch{
+  margin-top: 20px;
+  text-align: left;
+
+ }
+ .iend{
+  display: flex;
+
+ }
+ .icon2{
+  justify-items: center;
+  
+  align-items: center;
+  display: flex;
+
+  
+ }
+ .footer{
+  
+  width: 100%;
+  height: 100%;
+  background-color: rgb(7, 7, 240);
+ }
